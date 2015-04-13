@@ -18,9 +18,10 @@ using UnitySampleAssets.CrossPlatformInput;
 
         private void Update()
         {
-            if(!jump)
-            // Read the jump input in Update so button presses aren't missed.
-			jump = Input.GetButtonDown("Xbox360ControllerAButton");
+            if (!jump) {
+				// Read the jump input in Update so button presses aren't missed.
+				jump = Input.GetButtonDown ("Xbox360ControllerAButton");
+			}
 
         }
 
@@ -71,8 +72,6 @@ using UnitySampleAssets.CrossPlatformInput;
 			}
 			*/
 
-			
-			
             character.Move(h, run, jump);
             jump = false;
         }

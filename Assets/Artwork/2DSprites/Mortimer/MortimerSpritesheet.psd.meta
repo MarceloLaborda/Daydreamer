@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: 587cfa46dfbeebb42949174dcad45e05
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: MortimerSpritesheet_1
+    21300002: MortimerSpritesheet_2
+    21300004: MortimerSpritesheet_5
+    21300006: MortimerSpritesheet_9
+    21300008: MortimerSpritesheet_10
+    21300010: MortimerSpritesheet_11
+    21300012: MortimerSpritesheet_13
+    21300014: MortimerSpritesheet_14
+    21300016: MortimerSpritesheet_0
+    21300018: MortimerSpritesheet_3
+    21300020: MortimerSpritesheet_4
+    21300022: MortimerSpritesheet_6
+    21300024: MortimerSpritesheet_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: MortimerSpritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1747
+        width: 282
+        height: 296
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MortimerSpritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1752
+        width: 253
+        height: 296
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MortimerSpritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1296
+        width: 299
+        height: 264
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MortimerSpritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 853
+        width: 205
+        height: 355
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MortimerSpritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 855
+        width: 208
+        height: 355
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MortimerSpritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 854
+        width: 214
+        height: 355
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MortimerSpritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 327
+        width: 154
+        height: 443
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MortimerSpritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 347
+        width: 196
+        height: 372
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MortimerSpritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 1746
+        width: 273
+        height: 296
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MortimerSpritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1753
+        width: 385
+        height: 295
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MortimerSpritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1295
+        width: 273
+        height: 362
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MortimerSpritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 1276
+        width: 269
+        height: 395
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MortimerSpritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 398
+        width: 439
+        height: 343
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

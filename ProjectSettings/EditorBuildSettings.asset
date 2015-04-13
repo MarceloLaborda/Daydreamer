@@ -4,4 +4,24 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TitleScreen.unity
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
+  - enabled: 1
+    path: Assets/Scenes/ForestLevelTransition.unity
+  - enabled: 1
+    path: Assets/Scenes/ForestLevel.unity
+  - enabled: 1
+    path: Assets/Scenes/DesertLevelTransition.unity
+  - enabled: 1
+    path: Assets/Scenes/DesertLevel.unity
+  - enabled: 1
+    path: Assets/Scenes/IceLevelTransition.unity
+  - enabled: 1
+    path: Assets/Scenes/IceLevel.unity
+  - enabled: 1
+    path: Assets/Scenes/LavaLevelTransition.unity
+  - enabled: 1
+    path: Assets/Scenes/LavaLevel.unity

@@ -22,7 +22,7 @@ public class PrecisionMovementArea : MonoBehaviour {
 
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
 		area.center = new Vector2 (transform.position.x, transform.position.y);
 
 		//if (area.Contains (player.envelope.center)) {

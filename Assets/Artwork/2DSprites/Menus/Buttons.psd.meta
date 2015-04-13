@@ -1,0 +1,300 @@
+fileFormatVersion: 2
+guid: e530cb1194418874f918202a05918cff
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Select
+    21300002: Back
+    21300004: B
+    21300006: A
+    21300008: Y
+    21300010: X
+    21300012: Start
+    21300014: Buttons_7
+    21300016: RB
+    21300018: LB
+    21300020: RT
+    21300022: LT
+    21300024: RS
+    21300026: LS
+    21300028: Up
+    21300030: Right
+    21300032: Left
+    21300034: Down
+    21300036: Next
+    21300038: Skip
+    21300040: Level
+    21300042: Increase
+    21300044: Decrease
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Select
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 582
+        width: 314
+        height: 107
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Back
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 481
+        width: 247
+        height: 101
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 501
+        width: 53
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: A
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 501
+        width: 55
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Y
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 560
+        width: 53
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: X
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 560
+        width: 54
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Start
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 565
+        width: 70
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Buttons_7
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 566
+        width: 67
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RB
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 513
+        width: 73
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LB
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 513
+        width: 75
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RT
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 617
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LT
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 617
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RS
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 617
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LS
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 617
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Up
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 614
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Right
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 614
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Left
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 547
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Down
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 548
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Next
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 585
+        width: 239
+        height: 103
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Skip
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 466
+        width: 239
+        height: 116
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 586
+        width: 42
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Increase
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 599
+        width: 65
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Decrease
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 599
+        width: 67
+        height: 77
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

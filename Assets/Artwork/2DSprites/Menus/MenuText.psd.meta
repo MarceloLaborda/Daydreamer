@@ -1,0 +1,179 @@
+fileFormatVersion: 2
+guid: 1be8c016e67200840926fceb8f393b48
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: GameTitle
+    21300002: NewGame
+    21300004: Quit
+    21300006: Music
+    21300008: OptionsTitle
+    21300010: PausedTitle
+    21300012: SoundTitle
+    21300014: Options
+    21300016: SFX
+    21300018: Resume
+    21300020: Exit
+    21300022: Loading
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 110
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: GameTitle
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 437
+        width: 1502
+        height: 235
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 36, w: 0}
+    - name: NewGame
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 310
+        width: 509
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Quit
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 310
+        width: 217
+        height: 113
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Music
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 311
+        width: 292
+        height: 115
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: OptionsTitle
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 313
+        width: 435
+        height: 114
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PausedTitle
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 201
+        width: 385
+        height: 108
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SoundTitle
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 197
+        width: 358
+        height: 109
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Options
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 197
+        width: 380
+        height: 107
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SFX
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 197
+        width: 196
+        height: 108
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Resume
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 91
+        width: 413
+        height: 103
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Exit
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 93
+        width: 189
+        height: 101
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Loading
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 78
+        width: 394
+        height: 117
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

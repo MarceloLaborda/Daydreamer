@@ -12,7 +12,7 @@ public class CharacterEnvelope : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void LateUpdate () {
 		envelope.center = new Vector2 (transform.position.x, transform.position.y);
 	}
 

@@ -19,6 +19,7 @@
         private Transform groundCheck; // A position marking where to check if the player is grounded.
         private float groundedRadius = .2f; // Radius of the overlap circle to determine if grounded
         public bool grounded = false; // Whether or not the player is grounded.
+		private int doubleJump = 1; 
         private Transform ceilingCheck; // A position marking where to check for ceilings
         private float ceilingRadius = .01f; // Radius of the overlap circle to determine if the player can stand up
         private Animator anim; // Reference to the player's animator component.
@@ -41,6 +42,7 @@
             grounded = Physics2D.OverlapCircle(groundCheck.position, groundedRadius, whatIsGround);
 
 			if (grounded) {
+				doubleJump = 1;
 				cameraFollow.SendMessage ("ToggleSmoothTimeY", true);
 			} else {
 				cameraFollow.SendMessage ("ToggleSmoothTimeY", false);
@@ -50,6 +52,7 @@
 
             // Set the vertical animation
             anim.SetFloat("vSpeed", rigidbody2D.velocity.y);
+
         }
 
 
@@ -88,6 +91,14 @@
                     // ... flip the player.
                     Flip();
             }
+
+			if (!grounded && jump && doubleJump > 0) {
+				doubleJump--;
+				rigidbody2D.velocity = Vector2.zero;
+				rigidbody2D.angularVelocity = 0.0f; 
+				rigidbody2D.AddForce(new Vector2(0f, jumpForce));;
+			}
+
             // If the player should jump...
             if (grounded && jump && anim.GetBool("Ground"))
             {
@@ -96,8 +107,17 @@
                 anim.SetBool("Ground", false);
                 rigidbody2D.AddForce(new Vector2(0f, jumpForce));
             }
+
+
         }
 
+		public void Bounce(){
+			grounded = false;
+			anim.SetBool("Ground", false);
+			rigidbody2D.velocity = Vector2.zero;
+			rigidbody2D.angularVelocity = 0.0f; 
+			rigidbody2D.AddForce(new Vector2(0f, jumpForce));
+		}
 
         private void Flip()
         {
