@@ -11,7 +11,7 @@ GameObject:
   - 212: {fileID: 21203556}
   - 95: {fileID: 9503556}
   - 60: {fileID: 6003556}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28,7 +28,7 @@ GameObject:
   - 4: {fileID: 403558}
   - 50: {fileID: 5003556}
   - 114: {fileID: 11403556}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: FirstBoss
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -54,7 +54,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 103558}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 30.6200008, y: -5.57000017, z: 0}
+  m_LocalPosition: {x: 30.3400002, y: -5.48999977, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 403556}
@@ -115,7 +115,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 103558}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 49407d3be70f0494ba540d3abb697efd, type: 3}
   m_Name: 

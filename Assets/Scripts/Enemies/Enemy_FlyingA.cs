@@ -11,7 +11,7 @@ public class Enemy_FlyingA : MonoBehaviour {
 	private bool EnemyDead = false;
 
 	//Distance who far player has to be to this enemy to wakeup
-	private float AwakeDistance = 10f;
+	public float AwakeDistance = 10f;
 	
 	//Here are reference slots for AnimationController and Player Sprite Object.
 	public Animator AnimatorController;
@@ -50,8 +50,8 @@ public class Enemy_FlyingA : MonoBehaviour {
 		}
 
 
-		AnimatorController.SetBool ("Awake", EnemyAwake);
-		AnimatorController.SetBool ("Dead", EnemyDead);
+		//AnimatorController.SetBool ("Awake", EnemyAwake);
+		//AnimatorController.SetBool ("Dead", EnemyDead);
 	}
 
 

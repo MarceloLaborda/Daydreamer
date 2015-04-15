@@ -1,0 +1,223 @@
+fileFormatVersion: 2
+guid: 8d91fe4d76d227149885c8c892fd8bc2
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ge_head
+    21300002: ge_leftshoulder
+    21300004: ge_body
+    21300006: ge_leftthigh
+    21300008: ge_lefthand
+    21300010: ge_leftfoot
+    21300012: ge_leftcalf
+    21300014: ge_leftankle
+    21300016: ge_rightcalf
+    21300018: ge_rightfoot
+    21300020: ge_rightankle
+    21300022: ge_rightthigh
+    21300024: ge_righthand
+    21300026: ge_rightforearm
+    21300028: ge_leftforearm
+    21300030: ge_rightshoulder
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: ge_head
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1675
+        width: 964
+        height: 830
+      alignment: 9
+      pivot: {x: .472484291, y: .174027696}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ge_leftshoulder
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 812
+        width: 416
+        height: 759
+      alignment: 9
+      pivot: {x: .602019906, y: .870444298}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ge_body
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 1087
+        width: 880
+        height: 1119
+      alignment: 9
+      pivot: {x: .542199433, y: .571113527}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ge_leftthigh
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 743
+        width: 726
+        height: 701
+      alignment: 9
+      pivot: {x: .83613205, y: .749737918}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ge_lefthand
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 68
+        width: 278
+        height: 471
+      alignment: 9
+      pivot: {x: .423668504, y: .73653084}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ge_leftfoot
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 150
+        width: 545
+        height: 300
+      alignment: 9
+      pivot: {x: .772552788, y: .553050041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ge_leftcalf
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 342
+        width: 828
+        height: 482
+      alignment: 9
+      pivot: {x: .160426334, y: .709119856}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ge_leftankle
+      rect:
+        serializedVersion: 2
+        x: 2421
+        y: 46
+        width: 454
+        height: 689
+      alignment: 9
+      pivot: {x: .605166018, y: .777186334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ge_rightcalf
+      rect:
+        serializedVersion: 2
+        x: 3055
+        y: 134
+        width: 604
+        height: 568
+      alignment: 9
+      pivot: {x: .807411432, y: .686797142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ge_rightfoot
+      rect:
+        serializedVersion: 2
+        x: 3806
+        y: 41
+        width: 493
+        height: 396
+      alignment: 9
+      pivot: {x: .661411107, y: .714345455}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ge_rightankle
+      rect:
+        serializedVersion: 2
+        x: 4529
+        y: 880
+        width: 449
+        height: 856
+      alignment: 9
+      pivot: {x: .275511324, y: .822268605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ge_rightthigh
+      rect:
+        serializedVersion: 2
+        x: 3554
+        y: 708
+        width: 639
+        height: 1022
+      alignment: 9
+      pivot: {x: .192822948, y: .821832061}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ge_righthand
+      rect:
+        serializedVersion: 2
+        x: 4631
+        y: 1912
+        width: 368
+        height: 485
+      alignment: 9
+      pivot: {x: .355841607, y: .762517631}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ge_rightforearm
+      rect:
+        serializedVersion: 2
+        x: 3658
+        y: 1769
+        width: 801
+        height: 676
+      alignment: 9
+      pivot: {x: .142357156, y: .806059897}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ge_leftforearm
+      rect:
+        serializedVersion: 2
+        x: 2569
+        y: 1372
+        width: 759
+        height: 510
+      alignment: 9
+      pivot: {x: .842486203, y: .69763875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ge_rightshoulder
+      rect:
+        serializedVersion: 2
+        x: 2398
+        y: 2026
+        width: 1022
+        height: 444
+      alignment: 9
+      pivot: {x: .287175536, y: .213240892}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

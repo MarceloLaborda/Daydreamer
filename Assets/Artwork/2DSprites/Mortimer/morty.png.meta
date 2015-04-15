@@ -1,0 +1,234 @@
+fileFormatVersion: 2
+guid: ab1a6ea1b4420a449a81e361c7283a01
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: left_shoulder
+    21300002: left_forearm
+    21300004: left_fist
+    21300006: left_thigh
+    21300008: left_leg
+    21300010: left_foot
+    21300012: bottom
+    21300014: body
+    21300016: head
+    21300018: right_shoulder
+    21300020: right_forearm
+    21300022: right_hand
+    21300024: right_thigh
+    21300026: right_leg
+    21300028: right_foot
+    21300030: mouth
+    21300032: face
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: left_shoulder
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1591
+        width: 263
+        height: 413
+      alignment: 9
+      pivot: {x: .855731249, y: .901909828}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: left_forearm
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1391
+        width: 161
+        height: 120
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: left_fist
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1163
+        width: 187
+        height: 165
+      alignment: 9
+      pivot: {x: .22563833, y: .609744191}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: left_thigh
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 751
+        width: 292
+        height: 326
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: left_leg
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 388
+        width: 133
+        height: 245
+      alignment: 9
+      pivot: {x: .409233719, y: .820275605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: left_foot
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 31
+        width: 243
+        height: 254
+      alignment: 9
+      pivot: {x: .388223082, y: .761399508}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bottom
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 74
+        width: 534
+        height: 271
+      alignment: 9
+      pivot: {x: .528258026, y: .845230401}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: body
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 460
+        width: 634
+        height: 532
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: head
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 1090
+        width: 891
+        height: 957
+      alignment: 9
+      pivot: {x: .445805162, y: .0974374935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: right_shoulder
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 1065
+        width: 304
+        height: 290
+      alignment: 9
+      pivot: {x: .194889262, y: .713226974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: right_forearm
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 960
+        width: 150
+        height: 49
+      alignment: 4
+      pivot: {x: 0, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: right_hand
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 718
+        width: 174
+        height: 149
+      alignment: 9
+      pivot: {x: .233466491, y: .396249652}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: right_thigh
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 323
+        width: 257
+        height: 344
+      alignment: 9
+      pivot: {x: .427817971, y: .751657367}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: right_leg
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 32
+        width: 98
+        height: 225
+      alignment: 9
+      pivot: {x: .436900854, y: .788567007}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: right_foot
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 15
+        width: 261
+        height: 244
+      alignment: 9
+      pivot: {x: .286773086, y: .740754128}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mouth
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 1615
+        width: 306
+        height: 135
+      alignment: 9
+      pivot: {x: .34844172, y: .248077616}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: face
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 1763
+        width: 331
+        height: 189
+      alignment: 9
+      pivot: {x: .350548327, y: .532718062}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

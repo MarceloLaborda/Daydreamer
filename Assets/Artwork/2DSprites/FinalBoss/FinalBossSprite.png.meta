@@ -1,0 +1,157 @@
+fileFormatVersion: 2
+guid: b55c08d929b584dc38e2b8060e8df5ec
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: FinalBossSprite_0
+    21300002: FinalBossSprite_1
+    21300004: FinalBossSprite_2
+    21300006: FinalBossSprite_3
+    21300008: FinalBossSprite_4
+    21300010: FinalBossSprite_5
+    21300012: FinalBossSprite_6
+    21300014: FinalBossSprite_7
+    21300016: FinalBossSprite_8
+    21300018: FinalBossSprite_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: FinalBossSprite_0
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 935
+        width: 612
+        height: 490
+      alignment: 9
+      pivot: {x: .70394367, y: .31923005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FinalBossSprite_1
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 333
+        width: 392
+        height: 552
+      alignment: 9
+      pivot: {x: .450658917, y: .884136736}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FinalBossSprite_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 69
+        width: 377
+        height: 433
+      alignment: 9
+      pivot: {x: .66019541, y: .91843164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FinalBossSprite_3
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 552
+        width: 306
+        height: 506
+      alignment: 9
+      pivot: {x: .604747474, y: .885293484}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FinalBossSprite_4
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 84
+        width: 645
+        height: 281
+      alignment: 9
+      pivot: {x: .94319886, y: .270747393}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FinalBossSprite_5
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 482
+        width: 682
+        height: 978
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FinalBossSprite_6
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 536
+        width: 344
+        height: 541
+      alignment: 9
+      pivot: {x: .617042005, y: .924206495}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FinalBossSprite_7
+      rect:
+        serializedVersion: 2
+        x: 2219
+        y: 84
+        width: 718
+        height: 313
+      alignment: 9
+      pivot: {x: .948606372, y: .255595297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FinalBossSprite_8
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 1218
+        width: 384
+        height: 270
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FinalBossSprite_9
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 916
+        width: 377
+        height: 219
+      alignment: 9
+      pivot: {x: .6561836, y: .843548775}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

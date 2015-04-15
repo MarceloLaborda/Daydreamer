@@ -74,24 +74,28 @@ public class SoundManager : MonoBehaviour {
     }
 
     void OnLevelWasLoaded(int level) {
-        if (level == 1) { //Intro
-            music["Theme_Track"].Play();
-        } else if (level == 2) { //Forest Transition
+        if (level == 2) { //Intro
+            music["Intro_Track"].Play();
+        } else if (level == 3) { //Forest Transition
             music["Loading_Track"].Play();
-        } else if (level == 3) { //Forest
+        } else if (level == 4) { //Forest
             music["Birds_Ambient"].Play();
-        } else if (level == 4) { //Desert Transition
+            music["LevelBG_Track"].Play();
+        } else if (level == 5) { //Desert Transition
             music["Loading_Track"].Play();
-        } else if (level == 5) { //Desert
-            music["Birds_Ambient"].Play();
-        } else if (level == 6) { //Ice Transition
+        } else if (level == 6) { //Desert
+            //music["Birds_Ambient"].Play();
+            music["LevelBG_Track"].Play();
+        } else if (level == 7) { //Ice Transition
             music["Loading_Track"].Play();
-        } else if (level == 7) { //Ice
-            music["Birds_Ambient"].Play();
-        } else if (level == 8) { //Lava Transition
+        } else if (level == 8) { //Ice
+            music["LevelBG_Track"].Play();
+            //music["Birds_Ambient"].Play();
+        } else if (level == 9) { //Lava Transition
             music["Loading_Track"].Play();
-        } else if (level == 9) { //Lava
-            music["Birds_Ambient"].Play();
+        } else if (level == 10) { //Lava
+            music["LevelBG_Track"].Play();
+            //music["Birds_Ambient"].Play();
         }
     }
 	

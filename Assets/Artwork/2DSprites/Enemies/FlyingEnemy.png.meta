@@ -1,0 +1,80 @@
+fileFormatVersion: 2
+guid: ac02bf06be42ed44d80e41e5269443f5
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: lefthand
+    21300002: righthand
+    21300004: head
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: lefthand
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1080
+        width: 468
+        height: 423
+      alignment: 9
+      pivot: {x: .451823711, y: .784273207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: righthand
+      rect:
+        serializedVersion: 2
+        x: 2185
+        y: 471
+        width: 396
+        height: 480
+      alignment: 9
+      pivot: {x: .727741301, y: .75834465}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: head
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 1138
+        width: 1009
+        height: 1039
+      alignment: 9
+      pivot: {x: .283995181, y: .301082253}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

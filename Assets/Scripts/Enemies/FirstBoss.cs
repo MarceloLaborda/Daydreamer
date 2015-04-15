@@ -19,11 +19,14 @@ public class FirstBoss : MonoBehaviour {
 	private Vector3 MySpriteOriginalScale;
 
     public int health = 2;
+    private int initialHealth;
 
-    public Door door;
+    public Door backDoor;
+    public Door frontDoor;
 
 
 	void Start () {
+        initialHealth = health;
 		PlayerScript = GameObject.FindGameObjectWithTag ("Player").GetComponent<CharacterController2D> ();
 		//Start the distance checks. (When player gets close enough, Wake up. When he gets far enough, Go back to sleep.
 		InvokeRepeating ("CheckPlayerDistance", 0.5f, 0.5f);
@@ -76,7 +79,7 @@ public class FirstBoss : MonoBehaviour {
 		}
 
 
-		//AnimatorController.SetBool ("Awake", EnemyAwake);
+		
 		//AnimatorController.SetBool ("Dead", EnemyDead);
 	}
 
@@ -97,6 +100,8 @@ public class FirstBoss : MonoBehaviour {
 			}else{
              * */
 				PlayerScript.CharacterDies();
+                health = initialHealth;
+                frontDoor.Toggle(true);
 			//}
 
 		}
@@ -105,8 +110,8 @@ public class FirstBoss : MonoBehaviour {
 	void iDied(){
 		//PlayerScript.CharacterKilledEnemy();
 		Destroy (this.gameObject);
-        if (door != null) {
-            door.Toggle(true);
+        if (backDoor != null) {
+            backDoor.Toggle(true);
         }
 	}
 
@@ -116,13 +121,13 @@ public class FirstBoss : MonoBehaviour {
 		if (Vector3.Distance (this.transform.position, PlayerScript.transform.position) <= AwakeDistance && EnemyAwake == false) {
 //			Debug.Log("Close enough to wake up");
 			EnemyAwake = true;
-
+            AnimatorController.SetBool("Walk", EnemyAwake);
 		}
 
 		if (Vector3.Distance (this.transform.position, PlayerScript.transform.position) > AwakeDistance && EnemyAwake == true) {
 //			Debug.Log("Far enough to fall back sleep");
 			EnemyAwake = false;
-
+            AnimatorController.SetBool("Walk", EnemyAwake);
 		}
 
 	}

@@ -6,6 +6,11 @@ TextureImporter:
     21300002: ForestLevel_1
     21300004: ForestLevel_2
     21300006: ForestLevel_3
+    21300008: ForestLevel_4
+    21300010: ForestLevel_5
+    21300012: ForestLevel_6
+    21300014: ForestLevel_7
+    21300016: ForestLevel_8
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -55,7 +60,7 @@ TextureImporter:
         width: 257
         height: 83
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: ForestLevel_1
       rect:
@@ -65,7 +70,7 @@ TextureImporter:
         width: 642
         height: 83
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: ForestLevel_2
       rect:
@@ -75,7 +80,7 @@ TextureImporter:
         width: 181
         height: 258
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: ForestLevel_3
       rect:
@@ -85,7 +90,57 @@ TextureImporter:
         width: 381
         height: 258
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ForestLevel_4
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 403
+        width: 298
+        height: 140
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ForestLevel_5
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 388
+        width: 304
+        height: 152
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ForestLevel_6
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 149
+        width: 522
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ForestLevel_7
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 186
+        width: 304
+        height: 107
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ForestLevel_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1005
+        height: 134
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

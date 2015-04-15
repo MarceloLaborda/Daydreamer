@@ -10,10 +10,19 @@ public class Door : MonoBehaviour {
 
 	public bool ignoreTrigger;
 
+    public bool startsOpen = false;
+
+    private SoundManager soundManager;
+
 
 	// Use this for initialization
 	void Start () {
+        soundManager = GameObject.Find("SoundManager").GetComponent<SoundManager>();
 		animator = GetComponent<Animator> ();
+        if (startsOpen) {
+            animator.SetInteger("AnimState", 1);
+            collider2D.enabled = false;
+        }
 	}
 	
 	// Update is called once per frame
@@ -34,9 +43,11 @@ public class Door : MonoBehaviour {
 	public void Toggle(bool value){
 		if (value) {
 			animator.SetInteger ("AnimState", 1);
+            soundManager.sfx["Door_SoundEffect"].Play();
 			collider2D.enabled = false;
 		} else {
 			animator.SetInteger ("AnimState", 0);
+            soundManager.sfx["Door_SoundEffect"].Play();
 			collider2D.enabled = true;
 		}
 	}

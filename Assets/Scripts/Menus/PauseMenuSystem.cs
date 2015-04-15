@@ -31,12 +31,11 @@ public class PauseMenuSystem : MonoBehaviour
     {
         isActive = false;
         inOptions = false;
-        pauseMenu.SetActive(false);
         optionSelected = 0;
         numOptions = options.Count;
         numSoundOptions = soundOptions.Count;
         soundManager = GameObject.Find("SoundManager").GetComponent<SoundManager>();
-        
+
         musicLevel = (int)(soundManager.musicVolume * 5.0f);
         for (int i = 0; i < musicLevel; i++) {
             musicSlider[i].SetActive(true);
@@ -47,6 +46,8 @@ public class PauseMenuSystem : MonoBehaviour
         {
             sfxSlider[i].SetActive(true);
         }
+
+        pauseMenu.SetActive(false);
     }
 
     public void ShowPauseMenu(){
