@@ -6,12 +6,19 @@ public class AreaSwitch : MonoBehaviour {
 
 	public Door door;
 
+    public bool closes = true;
+
 
 
 	void OnTriggerEnter2D(Collider2D target){
 		if (target.gameObject.tag == "Player") {
-			if (door != null)
-				door.Toggle (false);
+			if (door != null){
+                if (closes) {
+                    door.Toggle(false);
+                } else {
+                    door.Toggle(true);
+                }
+            }
 		}
 	}
 

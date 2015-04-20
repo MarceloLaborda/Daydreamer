@@ -8,6 +8,7 @@ public class IntroManager : MonoBehaviour {
     public int currentTake;
     private int numTakes;
     private SoundManager soundManager;
+    public string levelName = "ForestLevelTransition";
 
     // Use this for initialization
     void Start() {
@@ -22,13 +23,13 @@ public class IntroManager : MonoBehaviour {
             StartCoroutine(FadeIn());
         }else{
             soundManager.StopAll();
-            Application.LoadLevel("ForestLevelTransition");
+            Application.LoadLevel(levelName);
         }
     }
 
     public void SkipIntro() {
         soundManager.StopAll();
-        Application.LoadLevel("ForestLevelTransition");
+        Application.LoadLevel(levelName);
     }
 
     IEnumerator FadeIn(){

@@ -42,13 +42,17 @@ public class Door : MonoBehaviour {
 
 	public void Toggle(bool value){
 		if (value) {
-			animator.SetInteger ("AnimState", 1);
-            soundManager.sfx["Door_SoundEffect"].Play();
-			collider2D.enabled = false;
+            if (collider2D.enabled == true) {
+                animator.SetInteger("AnimState", 1);
+                soundManager.sfx["Door_SoundEffect"].Play();
+                collider2D.enabled = false;
+            }
 		} else {
-			animator.SetInteger ("AnimState", 0);
-            soundManager.sfx["Door_SoundEffect"].Play();
-			collider2D.enabled = true;
+            if (collider2D.enabled == false) {
+                animator.SetInteger("AnimState", 0);
+                soundManager.sfx["Door_SoundEffect"].Play();
+                collider2D.enabled = true;
+            }
 		}
 	}
 

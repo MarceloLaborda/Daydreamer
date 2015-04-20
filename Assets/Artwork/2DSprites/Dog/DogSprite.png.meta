@@ -59,57 +59,57 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 11
-        y: 2199
-        width: 989
-        height: 1097
+        y: 2353
+        width: 1298
+        height: 1122
       alignment: 9
-      pivot: {x: .799939454, y: .349279553}
+      pivot: {x: .603759289, y: .339823067}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: backleftleg
       rect:
         serializedVersion: 2
-        x: 196
-        y: 1418
-        width: 240
-        height: 520
-      alignment: 2
-      pivot: {x: .5, y: 1}
+        x: 190
+        y: 1567
+        width: 323
+        height: 539
+      alignment: 9
+      pivot: {x: .286484569, y: .891734064}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: backleftpaw
       rect:
         serializedVersion: 2
-        x: 151
-        y: 153
-        width: 380
-        height: 393
+        x: 153
+        y: 297
+        width: 379
+        height: 397
       alignment: 9
       pivot: {x: .717553139, y: .92071408}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: leftpaw
       rect:
         serializedVersion: 2
-        x: 695
-        y: 91
-        width: 412
-        height: 455
+        x: 659
+        y: 229
+        width: 467
+        height: 423
       alignment: 9
-      pivot: {x: .594426453, y: .820634484}
+      pivot: {x: .617146075, y: .870800436}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: leftleg
       rect:
         serializedVersion: 2
-        x: 730
-        y: 814
-        width: 382
+        x: 727
+        y: 962
+        width: 480
         height: 664
-      alignment: 2
-      pivot: {x: .5, y: 1}
+      alignment: 9
+      pivot: {x: .434627146, y: .894263387}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: leftshoulder
       rect:
         serializedVersion: 2
-        x: 638
-        y: 1654
+        x: 642
+        y: 1795
         width: 464
         height: 439
       alignment: 9
@@ -118,62 +118,62 @@ TextureImporter:
     - name: body
       rect:
         serializedVersion: 2
-        x: 1050
-        y: 2124
-        width: 1713
-        height: 1122
+        x: 1348
+        y: 2262
+        width: 1628
+        height: 1151
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: tail
       rect:
         serializedVersion: 2
-        x: 2830
-        y: 2411
-        width: 745
-        height: 806
+        x: 2994
+        y: 2560
+        width: 593
+        height: 897
       alignment: 9
-      pivot: {x: .578329504, y: .150060758}
+      pivot: {x: .515706956, y: .0968329236}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: hindleg
       rect:
         serializedVersion: 2
-        x: 2460
-        y: 1278
-        width: 822
-        height: 708
+        x: 2470
+        y: 1429
+        width: 814
+        height: 711
       alignment: 9
       pivot: {x: .115460098, y: .870903432}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: hindpaw
       rect:
         serializedVersion: 2
-        x: 2763
-        y: 371
-        width: 490
-        height: 641
+        x: 2726
+        y: 492
+        width: 605
+        height: 695
       alignment: 9
-      pivot: {x: .648865998, y: .894498885}
+      pivot: {x: .578716993, y: .810534239}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: backrightleg
       rect:
         serializedVersion: 2
-        x: 1627
-        y: 1076
-        width: 427
-        height: 546
+        x: 1651
+        y: 1257
+        width: 397
+        height: 517
       alignment: 9
       pivot: {x: .215284005, y: .918606162}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: backrightpaw
       rect:
         serializedVersion: 2
-        x: 1667
-        y: 334
-        width: 481
-        height: 465
+        x: 1668
+        y: 496
+        width: 517
+        height: 507
       alignment: 9
-      pivot: {x: .661761165, y: .91831857}
+      pivot: {x: .64123863, y: .803219259}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

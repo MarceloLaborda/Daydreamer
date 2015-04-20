@@ -5,7 +5,11 @@ public class DontDestroyOnLoad : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        DontDestroyOnLoad(gameObject);
+        if (GameObject.FindGameObjectsWithTag("SoundManager").Length > 1) {
+            Destroy(gameObject);
+        } else {
+            DontDestroyOnLoad(gameObject);
+        }
 	}
 
 }

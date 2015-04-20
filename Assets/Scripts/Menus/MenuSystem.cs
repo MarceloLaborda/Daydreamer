@@ -28,6 +28,8 @@ public class MenuSystem : MonoBehaviour {
         options[optionSelected].transform.localScale = Vector3.one * 1.3f;
         options[optionSelected].GetComponent<SpriteRenderer>().color = optionSelectedColor;
 
+        soundManager = GameObject.Find("SoundManager").GetComponent<SoundManager>();
+
         musicLevel = (int)(soundManager.musicVolume * 5.0f);
         for (int i = 0; i < musicLevel; i++) {
             musicSlider[i].SetActive(true);

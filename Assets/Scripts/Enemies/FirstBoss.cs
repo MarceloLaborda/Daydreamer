@@ -42,21 +42,24 @@ public class FirstBoss : MonoBehaviour {
             EnemyDead = true;
             Invoke("iDied", 0.15f);
         }
-        StartCoroutine(HitAnimation());
+        foreach (Renderer rendererComp in MySpriteOBJ.GetComponentsInChildren<Renderer>()) {
+            StartCoroutine(HitAnimation(rendererComp));
+        }
     }
 
-    IEnumerator HitAnimation() {
-        if (MySpriteOBJ != null)
-            MySpriteOBJ.renderer.material.color = new Color(1.0f, 1.0f, 1.0f, 0.3f);
+    IEnumerator HitAnimation(Renderer rendererComp) {
+
+        if (rendererComp != null)
+            rendererComp.renderer.material.color = new Color(1.0f, 1.0f, 1.0f, 0.3f);
         yield return new WaitForSeconds(0.05f);
-        if (MySpriteOBJ != null)
-            MySpriteOBJ.renderer.material.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
+        if (rendererComp != null)
+            rendererComp.renderer.material.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
         yield return new WaitForSeconds(0.05f);
-        if (MySpriteOBJ != null)
-            MySpriteOBJ.renderer.material.color = new Color(1.0f, 1.0f, 1.0f, 0.3f);
+        if (rendererComp != null)
+            rendererComp.renderer.material.color = new Color(1.0f, 1.0f, 1.0f, 0.3f);
         yield return new WaitForSeconds(0.05f);
-        if (MySpriteOBJ != null)
-            MySpriteOBJ.renderer.material.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
+        if (rendererComp != null)
+            rendererComp.renderer.material.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
 
     }
 	
